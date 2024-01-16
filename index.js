@@ -26,7 +26,7 @@ MongoClient.connect(MONGO_URI).then((client) => {
   console.log("MongoDB connected successfully");
 });
 
-let currentSupplyValue = 10;
+let currentSupplyValue = 20;
 // Define a simple route
 app.get("/", (req, res) => {
   res.send("Welcome to the Node.js Backend Application!");
